@@ -1,0 +1,8 @@
+To get started with Dependabot version updates, you need to define which package ecosystems to update and specify where the package manifests are located. Check the documentation for all configuration options:
+
+version: 2
+updates:
+  - package-ecosystem: "" # Refer to the documentation for valid values
+    directory: "/" # Path to the package manifests
+    schedule:
+      interval: "weekly"
